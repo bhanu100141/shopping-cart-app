@@ -68,3 +68,57 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+Responsive Shopping Cart App (React + CSS)
+A fully responsive shopping cart application built using React and vanilla CSS. It allows users to browse a list of products, add them to the cart, adjust quantities, and unlock a free gift when a purchase threshold is met.
+
+Features
+
+1. Add products to the cart with adjustable quantities
+
+2. Real-time subtotal calculation
+
+3. Automatically adds a free gift when subtotal reaches or exceeds $1000
+
+4. Removes the free gift if subtotal goes below the threshold
+
+5. Displays a progress bar showing how much more is needed for the gift
+
+6. Responsive layout for mobile, tablet, laptop, and TV using media queries
+
+7. Clean, user-friendly interface with minimalistic styling
+
+Project Structure :
+
+shopping-cart-app/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── ProductList.js
+│   │   ├── Cart.js
+│   │   ├── ProgressBar.js
+│   ├── styles/
+│   │   ├── styles.css
+│   ├── App.js
+│   ├── index.js
+│── package.json
+│── README.md
+
+
+Products Data
+
+const PRODUCTS = [
+  { id: 1, name: "Laptop", price: 500 },
+  { id: 2, name: "Smartphone", price: 300 },
+  { id: 3, name: "Headphones", price: 100 },
+  { id: 4, name: "Smartwatch", price: 150 },
+  { id: 99, name: "Wireless Mouse", price: 0 }, // Free gift
+];
+
+const THRESHOLD = 1000;
+
+
