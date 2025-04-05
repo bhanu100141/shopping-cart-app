@@ -76,7 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Responsive Shopping Cart App (React + CSS)
 A fully responsive shopping cart application built using React and vanilla CSS. It allows users to browse a list of products, add them to the cart, adjust quantities, and unlock a free gift when a purchase threshold is met.
 
-Features
+# Features
 
 1. Add products to the cart with adjustable quantities
 
@@ -92,7 +92,7 @@ Features
 
 7. Clean, user-friendly interface with minimalistic styling
 
-Project Structure :
+# Project Structure :
 
 shopping-cart-app/
 │── public/
@@ -122,31 +122,30 @@ const PRODUCTS = [
 const THRESHOLD = 1000;
 
 
-How to Run Locally
-1. Clone the Repository
+# How to Run Locally
 
-git clone https://github.com/your-username/shopping-cart-app.git
+ Clone the Repository
+
+git clone https://github.com/bhanu100141/shopping-cart-app
 cd shopping-cart-app
-2. Install Dependencies
-bash
-Copy
-Edit
+
+# Install Dependencies
+
 npm install
-3. Start the App
-bash
-Copy
-Edit
+
+# Start the App
+
 npm start
 The app will open in your browser at http://localhost:3000.
 
-🧑‍💻 Technologies Used
+# Technologies Used
 React (via create-react-app)
 
 Vanilla CSS for styling
 
 Flexbox and media queries for responsive layout
 
-📐 Responsive Design
+# Responsive Design
 Media queries are used to ensure the layout looks good across devices:
 
 max-width: 768px for tablets
@@ -155,29 +154,23 @@ max-width: 480px for mobile phones
 
 Wide screen support for smart TVs and desktops
 
-🎁 Free Gift Logic
+# Free Gift Logic
 If subtotal >= $1000, a "Wireless Mouse" is automatically added to the cart.
 
-The message changes to:
+# The message changes to:
 
-vbnet
-Copy
-Edit
 🎉 Congratulations! You've unlocked a free gift!
 If the subtotal drops below $1000, the gift is removed and the progress bar appears again.
 
-📊 Progress Bar Logic
+# Progress Bar Logic
 Shows remaining amount to reach the threshold:
 
-ruby
-Copy
-Edit
 Spend $[X] more to unlock a free gift!
 Updates in real-time based on cart changes
 
-📄 License
+# License
 This project is open source and available under the MIT License.
 
-🙌 Acknowledgments
+# Acknowledgments
 Thanks to the open-source community for making React and CSS awesome!
 
