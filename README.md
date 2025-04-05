@@ -122,3 +122,62 @@ const PRODUCTS = [
 const THRESHOLD = 1000;
 
 
+How to Run Locally
+1. Clone the Repository
+
+git clone https://github.com/your-username/shopping-cart-app.git
+cd shopping-cart-app
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the App
+bash
+Copy
+Edit
+npm start
+The app will open in your browser at http://localhost:3000.
+
+🧑‍💻 Technologies Used
+React (via create-react-app)
+
+Vanilla CSS for styling
+
+Flexbox and media queries for responsive layout
+
+📐 Responsive Design
+Media queries are used to ensure the layout looks good across devices:
+
+max-width: 768px for tablets
+
+max-width: 480px for mobile phones
+
+Wide screen support for smart TVs and desktops
+
+🎁 Free Gift Logic
+If subtotal >= $1000, a "Wireless Mouse" is automatically added to the cart.
+
+The message changes to:
+
+vbnet
+Copy
+Edit
+🎉 Congratulations! You've unlocked a free gift!
+If the subtotal drops below $1000, the gift is removed and the progress bar appears again.
+
+📊 Progress Bar Logic
+Shows remaining amount to reach the threshold:
+
+ruby
+Copy
+Edit
+Spend $[X] more to unlock a free gift!
+Updates in real-time based on cart changes
+
+📄 License
+This project is open source and available under the MIT License.
+
+🙌 Acknowledgments
+Thanks to the open-source community for making React and CSS awesome!
+
